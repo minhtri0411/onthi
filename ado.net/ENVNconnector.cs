@@ -11,7 +11,7 @@ namespace ado.net
     {
         public List<string> getListTenChuDe()
         {
-            string connStr = "Data Source=./SQLSERVER2K12;Initial Catalog=ENVN;Integrated Security=True";
+            string connStr = "Data Source=.\\SQLSERVER2K12;Initial Catalog=ENVN;Integrated Security=True";
             SqlConnection conn = new SqlConnection(connStr);
             string sqlQuery = "select * from thematic"; // sql query
 
