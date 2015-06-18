@@ -25,7 +25,15 @@ namespace ado.net.disconnected
                 SqlCommand command = new SqlCommand(sqlQuery, conn);
                 DataSet ds = new DataSet(); // 1 data set có thể chứa nhiều data table
                 SqlDataAdapter sda = new SqlDataAdapter(command); // dùng SQL DATA ADAPTER để lấy dữ liệu   -> DISCONNECTED
+                /* Giải thích mô hình connected và disconnected */
+                // như bên connected có nói, nếu đóng kết nối ngay khúc excute comamnd 
+                // thì hàm lỗi, do kết nối bị đóng, không thể thực thi việc đọc dữ liệu
+                // nhưng, với mô hình disconnected này, việc đóng kết nối tại đây là ok
+                // do khi new đối tượng SqlDataAdapter thì dữ liệu đồng thời đã được load vào 
+                // Adapter, nên việc đóng hay mở kết nối lúc này không quan trọng nữa, có thể 
+                // close connection at now
                 conn.Close();
+
                 sda.Fill(ds);
                 if (ds.Tables.Count > 0)
                 {

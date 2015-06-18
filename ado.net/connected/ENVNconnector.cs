@@ -23,6 +23,11 @@ namespace ado.net.connected
                 conn.Open();
                 SqlCommand command = new SqlCommand(sqlQuery, conn);
                 SqlDataReader reader = command.ExecuteReader();                         // SỬ DỤNG SQLDATAREADER : DISCONNECTED
+                /* Giải thích mô hình connected và disconnected */
+                // so sánh code chỗ này với bên mô hình Disconnected, nếu sau khi gọi command.ExeCuteReader() 
+                // rồi đóng kết nối như lệnh bên dưới, thì hàm không chạy tiếp được, do connection đã 
+                // bị đóng, không thể lấy dữ liệu và chạy đoạn trong vòng lặp while
+              //  conn.Close();               
                 while (reader.Read()) // chỉ đọc khi reader còn có dữ liệu
                 {
                     string thematicName = reader["ThematicName"].ToString();
