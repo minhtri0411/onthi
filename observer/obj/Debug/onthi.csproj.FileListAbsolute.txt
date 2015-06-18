@@ -1,6 +1,0 @@
-D:\CODE\C#\onthi\onthi\bin\Debug\onthi.exe.config
-D:\CODE\C#\onthi\onthi\obj\Debug\onthi.csprojResolveAssemblyReference.cache
-D:\CODE\C#\onthi\onthi\bin\Debug\onthi.exe
-D:\CODE\C#\onthi\onthi\bin\Debug\onthi.pdb
-D:\CODE\C#\onthi\onthi\obj\Debug\onthi.exe
-D:\CODE\C#\onthi\onthi\obj\Debug\onthi.pdb

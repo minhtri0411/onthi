@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2A9F0D43-7540-470F-9E6A-08871C7D7B8D}</ProjectGuid>
+    <ProjectGuid>{3A417CBC-9097-46B0-9C7C-1076496F2912}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>observer</RootNamespace>
@@ -41,8 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ChuPhienDauGia.cs" />
     <Compile Include="ChuPhien.cs" />
+    <Compile Include="ChuPhienDauGia.cs" />
     <Compile Include="ChuPhienGiaoDich.cs" />
     <Compile Include="IKhachHang.cs" />
     <Compile Include="KhachHang1.cs" />
@@ -51,12 +51,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Factory\" />
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
