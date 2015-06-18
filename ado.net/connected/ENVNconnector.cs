@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ado.net
+namespace ado.net.connected
 {
     public class ENVNconnector
     {
@@ -22,7 +22,7 @@ namespace ado.net
                 Console.Write("Ket noi CSDL ok");
                 conn.Open();
                 SqlCommand command = new SqlCommand(sqlQuery, conn);
-                SqlDataReader reader = command.ExecuteReader();
+                SqlDataReader reader = command.ExecuteReader();                         // SỬ DỤNG SQLDATAREADER : DISCONNECTED
                 while (reader.Read()) // chỉ đọc khi reader còn có dữ liệu
                 {
                     string thematicName = reader["ThematicName"].ToString();
@@ -33,6 +33,7 @@ namespace ado.net
             {
                 Console.Write("\nKet noi CSDL that bai, xem lai connection string ");
             }
+            conn.Close();
             return danhSachTenChuDe;
         }
     }
