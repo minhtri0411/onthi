@@ -1,0 +1,6 @@
+D:\CODE\C#\onthi\ado.net\bin\Debug\ado.net.exe.config
+D:\CODE\C#\onthi\ado.net\bin\Debug\ado.net.exe
+D:\CODE\C#\onthi\ado.net\bin\Debug\ado.net.pdb
+D:\CODE\C#\onthi\ado.net\obj\Debug\ado.net.csprojResolveAssemblyReference.cache
+D:\CODE\C#\onthi\ado.net\obj\Debug\ado.net.exe
+D:\CODE\C#\onthi\ado.net\obj\Debug\ado.net.pdb
