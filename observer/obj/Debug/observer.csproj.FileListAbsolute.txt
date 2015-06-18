@@ -1,0 +1,6 @@
+D:\CODE\C#\onthi\onthi\bin\Debug\observer.exe.config
+D:\CODE\C#\onthi\onthi\bin\Debug\observer.exe
+D:\CODE\C#\onthi\onthi\bin\Debug\observer.pdb
+D:\CODE\C#\onthi\onthi\obj\Debug\observer.exe
+D:\CODE\C#\onthi\onthi\obj\Debug\observer.pdb
+D:\CODE\C#\onthi\onthi\bin\Debug\App.config

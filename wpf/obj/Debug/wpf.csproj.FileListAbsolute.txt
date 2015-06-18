@@ -1,0 +1,13 @@
+D:\CODE\C#\onthi\wpf\bin\Debug\wpf.exe.config
+D:\CODE\C#\onthi\wpf\bin\Debug\wpf.exe
+D:\CODE\C#\onthi\wpf\bin\Debug\wpf.pdb
+D:\CODE\C#\onthi\wpf\obj\Debug\wpf.csprojResolveAssemblyReference.cache
+D:\CODE\C#\onthi\wpf\obj\Debug\MainWindow.baml
+D:\CODE\C#\onthi\wpf\obj\Debug\MainWindow.g.cs
+D:\CODE\C#\onthi\wpf\obj\Debug\App.g.cs
+D:\CODE\C#\onthi\wpf\obj\Debug\wpf_MarkupCompile.cache
+D:\CODE\C#\onthi\wpf\obj\Debug\wpf.g.resources
+D:\CODE\C#\onthi\wpf\obj\Debug\wpf.Properties.Resources.resources
+D:\CODE\C#\onthi\wpf\obj\Debug\wpf.csproj.GenerateResource.Cache
+D:\CODE\C#\onthi\wpf\obj\Debug\wpf.exe
+D:\CODE\C#\onthi\wpf\obj\Debug\wpf.pdb
